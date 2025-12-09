@@ -7,7 +7,7 @@ dụ: src, package.json...)
 
 ```bash
 Thực hiện mở terminal trong VSCode
-Chạy câu lệnh: npm install (khuyến nghị cài nodejs version 18+)
+Chạy câu lệnh: npm install (khuyến nghị cài nodejs version 18+ đặc biệt >= 18.17.0 càng chuẩn cho dự án)
 Sau khi câu lệnh trên chạy xong chạy câu lệnh: npm run dev (chạy môi trường dev)
 Mở google vào đường link: http://localhost:3000/ (thực hiện test chức năng trong bên này)
 
@@ -20,7 +20,11 @@ Mở google vào đường link: http://localhost:3000/ (thực hiện test ch�
 2. Thêm bạn bè để chat
 3. Chat với bạn bè đã thêm trước đó
 4. Sửa/Xóa tin nhắn đã gửi (Chức năng xuất hiện khi hover vào tin nhắn đã gửi)
-   Lưu ý: Với những tin nhắn gửi quá 5 phút ẩn chức năng sửa tin nhắn
+   Lưu ý:
+   - Với những tin nhắn gửi quá 5 phút ẩn chức năng sửa tin nhắn
+   - Với tài khoản đã được tạo không thể đăng xuất vì liên kết với metamark và
+     lưu trong contract
+   - Chuyển tài khoản khác để test vui lòng chuyển account trong metamark
 
 ## Lưu ý với metamark
 
