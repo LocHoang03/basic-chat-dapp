@@ -1,40 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Thực hiện tải download dự án từ link github và chạy dự án
 
-## Getting Started
+Download dự án github theo link đã gửi từ gmail và giải nén
 
-First, run the development server:
+Thực hiện mở dự án bằng VSCode (Lưu ý mở file có chứa các thư mục của dự án ví
+dụ: src, package.json...)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Thực hiện mở terminal trong VSCode
+Chạy câu lệnh: npm install (khuyến nghị cài nodejs version 18+)
+Sau khi câu lệnh trên chạy xong chạy câu lệnh: npm run dev (chạy môi trường dev)
+Mở google vào đường link: http://localhost:3000/ (thực hiện test chức năng trong bên này)
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Các chức năng cơ bản có trong dự án
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Tạo tài khoản (nhập tên người dùng - địa chỉ metamark đã liên kết không cần
+   nhập)
+2. Thêm bạn bè để chat
+3. Chat với bạn bè đã thêm trước đó
+4. Sửa/Xóa tin nhắn đã gửi (Chức năng xuất hiện khi hover vào tin nhắn đã gửi)
+   Lưu ý: Với những tin nhắn gửi quá 5 phút ẩn chức năng sửa tin nhắn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Lưu ý với metamark
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thực hiện chuyển sang mạng ETH Sepolia testnet để thực hiện test được chính xác

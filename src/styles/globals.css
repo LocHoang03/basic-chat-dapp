@@ -25,3 +25,43 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.menuLink {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menuLink:hover {
+  color: orange !important;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d1d1d1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d1d1d1;
+}
+
+/* button content */
+.ant-popover-content .buttonContent {
+  padding: 4px 16px;
+}
+
+.ant-popover-content .buttonContent:hover {
+  background-color: #ccc;
+  border-radius: 3px;
+}
