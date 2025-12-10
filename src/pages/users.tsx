@@ -43,7 +43,7 @@ const AllUser: React.FC = () => {
 
   useEffect(() => {
     getAllUsers();
-  }, [account, userName]);
+  }, [account, userName, friendLists]);
 
   if (loading || isLoading) {
     return (
